@@ -465,52 +465,54 @@ p {
     font-weight: 300;
 }
 /* team section */
-.teamSection{
+.teamSection {
     padding: 100px 0;
     text-align: center;
 }
-.teamheader h2{
+.teamheader h2 {
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 60px;
 }
-.teammember{}
-.teams{
+.teammember {
+}
+.teams {
     width: 23%;
     box-sizing: border-box;
-    box-shadow: 4px 4px 20px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
     padding-bottom: 30px;
     margin-left: 1%;
     margin-right: 1%;
-    transition: .5s;
+    transition: 0.5s;
 }
-.teams:hover{
+.teams:hover {
     transform: scale(1.05);
 }
-.teams img{
+.teams img {
     width: 315px;
 }
-.teams h4{
+.teams h4 {
     font-size: 25px;
     font-weight: 600;
     margin: 10px 0;
 }
-.teams span{
+.teams span {
     font-size: 20px;
     font-weight: 300;
 }
 /* sub section */
-.subscribe{
+.subscribe {
     background: #f7f9ff;
     padding: 100px 0;
     text-align: center;
 }
-.subBox{}
-.subBox span{
+.subBox {
+}
+.subBox span {
     font-size: 30px;
     font-weight: 200;
 }
-.subBox h1{
+.subBox h1 {
     font-size: 55px;
     font-weight: 400;
     margin: 15px 0;
@@ -521,15 +523,15 @@ p {
     border: none;
     outline: none;
     margin-top: 20px;
-    transition: .5s;
+    transition: 0.5s;
     opacity: 1;
 }
-.input:hover{
-    box-shadow: 0 0 15px 4px rgba(98, 120, 223,0.5);
+.input:hover {
+    box-shadow: 0 0 15px 4px rgba(98, 120, 223, 0.5);
     border: 1px solid #6278df;
     opacity: 1;
 }
-.sub{
+.sub {
     background: #6278df;
     color: white;
     border: 1px solid #6278df;
@@ -538,19 +540,22 @@ p {
     padding: 15px 20px;
     border-radius: 10px;
     margin-left: 30px;
-    transition: .5s;
+    transition: 0.5s;
     opacity: 1;
 }
 .sub:hover {
     background: white;
     color: #6278df;
-    box-shadow: 0 0 15px 4px rgba(98, 120, 223,0.5);
+    box-shadow: 0 0 15px 4px rgba(98, 120, 223, 0.5);
     opacity: 1;
 }
-
-
-
-
+/* report section */
+.reportSection {
+    padding: 100px 0;
+}
+.textReport {
+    margin-bottom: 70px;
+}
 .footer {
     text-align: center;
     background: white;
@@ -559,4 +564,60 @@ p {
 }
 .footer h6 {
     font-weight: 400;
+}
+.bigtext {
+    width: 50%;
+}
+.bigtext h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.smallText {
+    width: 50%;
+}
+.smallText p {
+    font-size: 37px;
+    text-align: justify;
+    font-weight: 200;
+}
+.firstimage {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+    padding-bottom: -19px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.pic {
+    width: 50%;
+}
+.pic img {
+}
+.secoundimage {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.texts {
+    width: 50%;
+}
+.texts h5 {
+    font-size: 32px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.texts p {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 300;
+}
+.box:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
 }
